@@ -5,6 +5,6 @@ def hello():
     Voici un exemple de la fonction hello
 
     >>> hello()
-    'Hello develop'
+    'Hello main'
     """
-	return "Hello develop"
+	return "Hello main"
