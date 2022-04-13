@@ -1,4 +1,5 @@
 from bottle import route, run
+import sys
 from helpers import hello
 
 
@@ -8,4 +9,4 @@ def index():
     return texte
 
 
-run(host="localhost", port=8087)
+run(host="0.0.0.0", port=sys.argv[1], reloader=True)
