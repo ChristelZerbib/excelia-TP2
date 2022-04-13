@@ -1,5 +1,3 @@
-
-
 def hello():
     """
     Voici un exemple de la fonction hello
@@ -8,3 +6,4 @@ def hello():
     'Hello main'
     """
 	return "Hello main"
+
